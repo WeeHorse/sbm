@@ -1,0 +1,18 @@
+@import url(site/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css);
+@import url(site/css/css_1dIXW09RH5lLFOqD_8JOJhkyn6dW7-Zqgr1G81m6uFA.css);
+@import url(site/css/css_xbws_AE3Q_BALATdowL6pjpvlOGaZ6pj_ncEInIUXmo.css);
+@import url(site/css/css_DTDJXxDTmMZT_VCdEcaTCY5_6bDuQH2xyPJTjtGMHjQ.css);
+#sliding-popup.sliding-popup-bottom, #sliding-popup.sliding-popup-bottom .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {
+  background: #0779BF; }
+
+#sliding-popup.sliding-popup-bottom.eu-cookie-withdraw-wrapper {
+  background: transparent; }
+
+#sliding-popup .popup-content #popup-text h1, #sliding-popup .popup-content #popup-text h2, #sliding-popup .popup-content #popup-text h3, #sliding-popup .popup-content #popup-text p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab {
+  color: #ffffff !important; }
+
+.eu-cookie-withdraw-tab {
+  border-color: #ffffff; }
+
+.eu-cookie-compliance-more-button {
+  color: #ffffff !important; }
