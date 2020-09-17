@@ -16,3 +16,6 @@
 
 .eu-cookie-compliance-more-button {
   color: #ffffff !important; }
+
+.owl-item.active {
+  width: 100vw !important; }
