@@ -11,6 +11,7 @@ var handlebars = require('express-handlebars');
 // and documentation.
 
 keystone.init({
+	'cookie secret': 'sdfkalhtreldijfha',
 	'name': 'SBM',
 	'brand': 'SBM',
 
