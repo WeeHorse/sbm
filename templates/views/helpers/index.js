@@ -2,7 +2,7 @@ var moment = require('moment');
 var _ = require('lodash');
 var hbs = require('handlebars');
 var keystone = require('keystone');
-var cloudinary = require('cloudinary');
+var cloudinary = { url: null } // require('cloudinary');
 
 // Collection of templates to interpolate
 var linkTemplate = _.template('<a href="<%= url %>"><%= text %></a>');
@@ -95,7 +95,7 @@ module.exports = function () {
 		var suffix = _.isString(options.hash.suffix) ? options.hash.suffix : '';
 		var output = '';
 
-		function createTagList (tags) {
+		function createTagList(tags) {
 			var tagNames = _.map(tags, 'name');
 
 			if (autolink) {
