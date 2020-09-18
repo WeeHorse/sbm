@@ -11,10 +11,10 @@ var handlebars = require('express-handlebars');
 // and documentation.
 
 keystone.init({
+	'cookie secret': 'sdfkalhtreldijfha',
 	'name': 'SBM',
 	'brand': 'SBM',
 
-	'sass': 'public',
 	'static': 'public',
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
