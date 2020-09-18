@@ -14,7 +14,6 @@ keystone.init({
 	'name': 'SBM',
 	'brand': 'SBM',
 
-	'sass': 'public',
 	'static': 'public',
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
