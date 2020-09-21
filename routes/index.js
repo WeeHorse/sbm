@@ -39,6 +39,7 @@ exports = module.exports = function (app) {
 	app.get('/blog/post/:post', routes.views.post);
 	app.get('/gallery', routes.views.gallery);
 	app.get('/forsakringar', routes.views.forsakringar);
+	app.get('/vagassistansforsakring', routes.views.vagassistansforsakring);
 	app.get('/forsakringar/vagassistans/vaghjalp-bil', routes.views['vaghjalp-bil']);
 	app.get('/checkout/44771', routes.views['44771']);
 	app.all('/contact', routes.views.contact);
