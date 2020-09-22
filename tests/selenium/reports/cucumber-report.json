@@ -1,0 +1,48 @@
+[
+  {
+    "description": "    as a user I want to navigate to the homepage",
+    "elements": [
+      {
+        "id": "start;homepage",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Homepage",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 10767700000
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\toby_\\Desktop\\sbm\\tests\\selenium\\step-definitions\\home.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 634349801
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\Desktop\\sbm\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "start",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Start",
+    "tags": [],
+    "uri": "C:/Users/toby_/Desktop/sbm/features/Start.feature"
+  }
+]

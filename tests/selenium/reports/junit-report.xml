@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="start;homepage" tests="1" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/Desktop/sbm/features/Start.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the homepage" classname="start;homepage" time="10.7677">
+        </testcase>
+    </testsuite>
+</testsuites>
