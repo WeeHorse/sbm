@@ -1,0 +1,86 @@
+[
+  {
+    "elements": [
+      {
+        "id": "search-google;when-i-enter-a-keyword-in-google-search",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "When I enter a keyword in google search",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I'm at the search page",
+            "result": {
+              "status": "passed",
+              "duration": 5595850992
+            },
+            "line": 5,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT19/google-search-test/step-definitions/test.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter search text \"rubber ducking\"",
+            "result": {
+              "status": "passed",
+              "duration": 3107998942
+            },
+            "line": 6,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT19/google-search-test/step-definitions/test.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 4016906872
+            },
+            "line": 7,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT19/google-search-test/step-definitions/test.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the first test result should contain the word \"rubber ducking\"",
+            "result": {
+              "status": "passed",
+              "duration": 56683459
+            },
+            "line": 8,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT19/google-search-test/step-definitions/test.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2697715025
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT19/google-search-test/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-google",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search google",
+    "tags": [],
+    "uri": "/Applications/AMPPS/www/MVT19/google-search-test/features/test.feature"
+  }
+]

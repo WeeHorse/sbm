@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="search-google;when-i-enter-a-keyword-in-google-search" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Applications/AMPPS/www/MVT19/google-search-test/features/test.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I&apos;m at the search page" classname="search-google;when-i-enter-a-keyword-in-google-search" time="5.595850992">
+        </testcase>
+        <testcase name="When I enter search text &quot;rubber ducking&quot;" classname="search-google;when-i-enter-a-keyword-in-google-search" time="3.107998942">
+        </testcase>
+        <testcase name="And I click the search button" classname="search-google;when-i-enter-a-keyword-in-google-search" time="4.016906872">
+        </testcase>
+        <testcase name="Then the first test result should contain the word &quot;rubber ducking&quot;" classname="search-google;when-i-enter-a-keyword-in-google-search" time="0.056683459">
+        </testcase>
+    </testsuite>
+</testsuites>

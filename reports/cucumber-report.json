@@ -1,0 +1,99 @@
+[
+  {
+    "elements": [
+      {
+        "id": "sadsaokdasok;",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the new site",
+            "result": {
+              "status": "passed",
+              "duration": 5064474501
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\sbm\\step-definitions\\test.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I go to incurenses",
+            "result": {
+              "status": "passed",
+              "duration": 839043701
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\sbm\\step-definitions\\test.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "make sure there are at least three incurenses",
+            "result": {
+              "status": "passed",
+              "duration": 41695900
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\sbm\\step-definitions\\test.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "go to the carhelp incurense",
+            "result": {
+              "status": "passed",
+              "duration": 566383300
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\sbm\\step-definitions\\test.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can go to order now",
+            "result": {
+              "status": "passed",
+              "duration": 403202300
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\sbm\\step-definitions\\test.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 813436700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\sbm\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sadsaokdasok",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "sadsaokdasok",
+    "tags": [],
+    "uri": "C:/Users/jitma/Desktop/sbm/features/test.feature"
+  }
+]

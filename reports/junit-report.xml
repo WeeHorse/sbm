@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="sadsaokdasok;" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/sbm/features/test.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the new site" classname="sadsaokdasok;" time="5.064474501">
+        </testcase>
+        <testcase name="When I go to incurenses" classname="sadsaokdasok;" time="0.839043701">
+        </testcase>
+        <testcase name="And make sure there are at least three incurenses" classname="sadsaokdasok;" time="0.0416959">
+        </testcase>
+        <testcase name="And go to the carhelp incurense" classname="sadsaokdasok;" time="0.5663833">
+        </testcase>
+        <testcase name="Then I can go to order now" classname="sadsaokdasok;" time="0.4032023">
+        </testcase>
+    </testsuite>
+</testsuites>
