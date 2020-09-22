@@ -5,7 +5,7 @@
             <property name="URI" value="C:/Users/Data/Desktop/sbm/features/köpförsäkring.feature">
             </property>
         </properties>
-        <testcase name="Given that im at the SMB webbsite" classname="köp-en-försäkring;buy-an-insurance" time="10.9293578">
+        <testcase name="Given that im at the SMB webbsite" classname="köp-en-försäkring;buy-an-insurance" time="12.0705722">
         </testcase>
     </testsuite>
 </testsuites>
