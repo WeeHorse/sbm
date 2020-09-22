@@ -99,3 +99,11 @@ function checkSsnAndRegnr(e) {
     $ssnInput.after('<div class="mock-error-message messages error messages-inline">Detta personnummer står ej som registrerad ägare av bilen. Vänligen kontrollera uppgifterna och försök igen.</div>')
   }
 }
+
+$('body').on('keyup', '#bankid-ssn', handleBankIdSsnValidity)
+
+function handleBankIdSsnValidity() {
+  $('#bankid-send').prop('disabled', function (i, v) {
+    return !$('#bankid-ssn')[0].checkValidity();
+  });
+}
