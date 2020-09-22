@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
+<<<<<<< HEAD
     <testsuite name="köp-en-försäkring;buy-an-insurance" tests="1" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Data/Desktop/sbm/features/köpförsäkring.feature">
             </property>
         </properties>
         <testcase name="Given that im at the SMB webbsite" classname="köp-en-försäkring;buy-an-insurance" time="10.4901281">
+=======
+    <testsuite name="start;homepage" tests="1" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/toby_/Desktop/sbm/features/Start.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the homepage" classname="start;homepage" time="10.7677">
+>>>>>>> 043fa0a89891076f3426de39b395f97b4cb231b1
         </testcase>
     </testsuite>
 </testsuites>

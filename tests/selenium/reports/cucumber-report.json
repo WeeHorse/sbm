@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "description": "  as an user i want to\n  be able to buy an insurance",
     "elements": [
       {
@@ -7,10 +8,20 @@
         "keyword": "Scenario",
         "line": 9,
         "name": "buy an insurance",
+=======
+    "description": "    as a user I want to navigate to the homepage",
+    "elements": [
+      {
+        "id": "start;homepage",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Homepage",
+>>>>>>> 043fa0a89891076f3426de39b395f97b4cb231b1
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< HEAD
             "name": "that im at the SMB webbsite",
             "result": {
               "status": "passed",
@@ -19,6 +30,16 @@
             "line": 10,
             "match": {
               "location": "C:\\Users\\Data\\Desktop\\sbm\\tests\\selenium\\step-definitions\\buyInsurance.js:9"
+=======
+            "name": "that I am on the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 10767700000
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\toby_\\Desktop\\sbm\\tests\\selenium\\step-definitions\\home.js:5"
+>>>>>>> 043fa0a89891076f3426de39b395f97b4cb231b1
             }
           },
           {
@@ -26,11 +47,19 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 1277612901
             },
             "hidden": true,
             "match": {
               "location": "C:\\Users\\Data\\Desktop\\sbm\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+              "duration": 634349801
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\Desktop\\sbm\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+>>>>>>> 043fa0a89891076f3426de39b395f97b4cb231b1
             }
           }
         ],
@@ -38,11 +67,20 @@
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
     "id": "köp-en-försäkring",
     "keyword": "Feature",
     "line": 1,
     "name": "köp en försäkring",
     "tags": [],
     "uri": "C:/Users/Data/Desktop/sbm/features/köpförsäkring.feature"
+=======
+    "id": "start",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Start",
+    "tags": [],
+    "uri": "C:/Users/toby_/Desktop/sbm/features/Start.feature"
+>>>>>>> 043fa0a89891076f3426de39b395f97b4cb231b1
   }
 ]
