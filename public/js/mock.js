@@ -100,6 +100,10 @@ function checkSsnAndRegnr(e) {
   }
 }
 
+$("body").on('click', '#bankid-login-button', function () {
+  $('.bankid').show()
+})
+
 $('body').on('keyup', '#bankid-ssn', handleBankIdSsnValidity)
 
 function handleBankIdSsnValidity() {

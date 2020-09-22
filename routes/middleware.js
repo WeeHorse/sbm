@@ -27,6 +27,7 @@ exports.initLocals = function (req, res, next) {
 		{ label: 'Vägassistansförsäkring', key: 'vagassistansforsakring', href: '/vagassistansforsakring' },
 		{ label: 'Väghjälp bil', key: 'vaghjalp-bil', href: '/forsakringar/vagassistans/vaghjalp-bil' },
 		{ label: 'Väghjälp bil beställning', key: '44771', href: '/checkout/44771' },
+		{ label: 'Checkout complete - Väghjälp bil beställning', key: '44771-complete', href: '/checkout/44771/complete' },
 	];
 	res.locals.user = req.user;
 	next();

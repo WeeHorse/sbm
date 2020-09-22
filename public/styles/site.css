@@ -68,13 +68,15 @@ input.error{
   padding:10vh 25vw;
   position: fixed;
   z-index:999;
-  background:rgba(0,0,0,0.5)
+  background:rgba(0,0,0,0.5);
+  display:none;
 }
 .bankid-content{
   width: 420px;
   height: 476px;
   background-image: url(../images/bankid.jpg);
   background-size: 100%;
+  display:block;
 }
 
 #bankid-ssn,

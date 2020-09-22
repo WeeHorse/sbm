@@ -42,6 +42,7 @@ exports = module.exports = function (app) {
 	app.get('/vagassistansforsakring', routes.views.vagassistansforsakring);
 	app.get('/forsakringar/vagassistans/vaghjalp-bil', routes.views['vaghjalp-bil']);
 	app.post('/checkout/44771', routes.views['44771']);
+	app.post('/checkout/44771/complete', routes.views['44771-complete']);
 	app.all('/contact', routes.views.contact);
 
 
