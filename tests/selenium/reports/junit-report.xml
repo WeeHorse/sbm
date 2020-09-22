@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="köp-en-försäkring;buy-an-insurance" tests="1" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/sbm/features/köpförsäkring.feature">
+            </property>
+        </properties>
+        <testcase name="Given that im at the SMB webbsite" classname="köp-en-försäkring;buy-an-insurance" time="10.9293578">
+        </testcase>
+    </testsuite>
+</testsuites>

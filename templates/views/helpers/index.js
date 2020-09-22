@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable semi */
 var moment = require('moment');
 var _ = require('lodash');
 var hbs = require('handlebars');
@@ -95,7 +97,7 @@ module.exports = function () {
 		var suffix = _.isString(options.hash.suffix) ? options.hash.suffix : '';
 		var output = '';
 
-		function createTagList(tags) {
+		function createTagList (tags) {
 			var tagNames = _.map(tags, 'name');
 
 			if (autolink) {

@@ -1,0 +1,48 @@
+[
+  {
+    "description": "  as an user i want to\n  be able to buy an insurance",
+    "elements": [
+      {
+        "id": "köp-en-försäkring;buy-an-insurance",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "buy an insurance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that im at the SMB webbsite",
+            "result": {
+              "status": "passed",
+              "duration": 10929357800
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Data\\Desktop\\sbm\\tests\\selenium\\step-definitions\\buyInsurance.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1653282100
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Data\\Desktop\\sbm\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "köp-en-försäkring",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "köp en försäkring",
+    "tags": [],
+    "uri": "C:/Users/Data/Desktop/sbm/features/köpförsäkring.feature"
+  }
+]
