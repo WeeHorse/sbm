@@ -4,8 +4,17 @@ Now we only use static css with no sass depencency
 
 @import url(site/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css);
 @import url(site/css/css_1dIXW09RH5lLFOqD_8JOJhkyn6dW7-Zqgr1G81m6uFA.css);
+@import url(site/css/css_eK97Sx2uyBWQ-yja5dBePpGrbGRXGUGnFDboR1wgGfk.css);
+@import url(site/css/css_1_gMTSi4qx6YIMLXgNquRTNgQv3xspx10U826T9Qg1M.css);
+@import url(site/css/css_BY0NaDxeMBnIItI3otr7CIIB1rcHmibzyLhenBdY0SI.css);
 @import url(site/css/css_xbws_AE3Q_BALATdowL6pjpvlOGaZ6pj_ncEInIUXmo.css);
 @import url(site/css/css_DTDJXxDTmMZT_VCdEcaTCY5_6bDuQH2xyPJTjtGMHjQ.css);
+
+@import url(site/css/css_3_kbT79_v5ey05b5ENOOez16W7ZFKPGVVai7dikv7v8.css);
+
+
+
+
 #sliding-popup.sliding-popup-bottom, #sliding-popup.sliding-popup-bottom .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {
   background: #0779BF; }
 
@@ -23,3 +32,24 @@ Now we only use static css with no sass depencency
 
 .owl-item.active {
   width: 100vw !important; }
+
+.commerce-add-to-cart.commerce-cart-add-to-cart-form-96.in-stock {
+    display: block;
+}
+
+#commerce-checkout-form-checkout{
+  display: block;
+}
+
+#mysafety-store-checkout-ssn-form{
+  display: block;
+}
+
+.form_wrapper.checkout-page__form{
+  display: none;
+}
+
+input[type=text] {
+    padding: 1rem;
+    font-size: 140%;
+}
