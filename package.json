@@ -12,6 +12,10 @@
     "keystone": "4.0.0-beta.5",
     "lodash": "^4.13.1",
     "moment": "2.17.1",
+<<<<<<< HEAD
+=======
+    "selenium-cucumber-js": "^1.7.1",
+>>>>>>> Toby-SBM1
     "selenium-webdriver": "^4.0.0-alpha.7"
   },
   "devDependencies": {
@@ -22,6 +26,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node keystone.js"
+    "start": "node keystone.js",
+    "test": "node ./node_modules/selenium-cucumber-js/index.js && exit 0"
   }
 }
