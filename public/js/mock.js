@@ -111,3 +111,8 @@ function handleBankIdSsnValidity() {
     return !$('#bankid-ssn')[0].checkValidity();
   });
 }
+
+// toggle insurance documents
+$("body").on('click', '.section__title', function () {
+  $(this).next('.content-wrapper__info').toggle()
+})
