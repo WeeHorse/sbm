@@ -53,3 +53,11 @@ input[type=text] {
     padding: 1rem;
     font-size: 140%;
 }
+
+.error{
+  color: #FF0000;
+}
+
+input.error{
+  border: 1px solid #FF0000;
+}

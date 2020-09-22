@@ -64,8 +64,13 @@ function checkSsnAndRegnr(e) {
   let $info = $('.checkout-page__form__user-info>div:last-child>h3')
   $ssn.siblings().html('');
   $info.siblings().html('');
-  let ssn = $('#edit-ssn-field').val().replace(/[\s\D]?/gi, '')
-  let reg = $('#edit-regnr').val().replace(/[\s\W]?/gi, '')
+  let $ssnInput = $('#edit-ssn-field')
+  let $regInput = $('#edit-regnr')
+  $ssnInput.removeClass('error')
+  $regInput.removeClass('error')
+  $('.mock-error-message').remove()
+  let ssn = $ssnInput.val().replace(/[\s\D]?/gi, '')
+  let reg = $regInput.val().replace(/[\s\W]?/gi, '')
   let person;
   for (p of people) {
     if (p.ssn === ssn) {
@@ -74,12 +79,23 @@ function checkSsnAndRegnr(e) {
     }
   }
   let car = cars[reg]
-  if (cars[reg] && cars[reg].owner === person) {
+  if (!car || !person) {
+    if (!car) {
+      $regInput.after('<div class="mock-error-message messages error messages-inline">Ange ett giltigt registreringsnummer.</div>')
+      $regInput.addClass('error')
+    }
+    if (!person) {
+      $ssnInput.after('<div class="mock-error-message messages error messages-inline">Ogiltigt personnummer, vänligen kontrollera att du fyllt i rätt</div>')
+      $ssnInput.addClass('error')
+    }
+  } else if (cars[reg] && cars[reg].owner === person) {
     $ssn.after(`<p>${person.ssn}</p>`)
     $info.after(`
       <p>${person.firstName} ${person.lastName}</p>
       <p>${person.street}</p>
       <p>${person.zip} ${person.muncipality}</p>
     `)
+  } else {
+    $ssnInput.after('<div class="mock-error-message messages error messages-inline">Detta personnummer står ej som registrerad ägare av bilen. Vänligen kontrollera uppgifterna och försök igen.</div>')
   }
 }
