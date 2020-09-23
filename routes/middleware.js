@@ -24,9 +24,11 @@ exports.initLocals = function (req, res, next) {
 		{ label: 'Gallery', key: 'gallery', href: '/gallery' },
 		{ label: 'Contact', key: 'contact', href: '/contact' },
 		{ label: 'Försäkringar', key: 'forsakringar', href: '/forsakringar' },
+		{ label: 'Villkor', key: 'villkor', href: '/villkor' },
 		{ label: 'Vägassistansförsäkring', key: 'vagassistansforsakring', href: '/vagassistansforsakring' },
 		{ label: 'Väghjälp bil', key: 'vaghjalp-bil', href: '/forsakringar/vagassistans/vaghjalp-bil' },
 		{ label: 'Väghjälp bil beställning', key: '44771', href: '/checkout/44771' },
+		{ label: 'Checkout complete - Väghjälp bil beställning', key: '44771-complete', href: '/checkout/44771/complete' },
 	];
 	res.locals.user = req.user;
 	next();
