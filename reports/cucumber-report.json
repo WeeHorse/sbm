@@ -1,0 +1,504 @@
+[
+  {
+    "elements": [
+      {
+        "id": "våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "As a customer i would like to buy the Väghjälp bil insurance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i am on the SBM home page",
+            "result": {
+              "status": "passed",
+              "duration": 7986031169
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the väghjälp bil picture",
+            "result": {
+              "status": "passed",
+              "duration": 2078559951
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i’m on the vägassistansförsäkringar page",
+            "result": {
+              "status": "passed",
+              "duration": 1028807134
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the väghjälp bil picture",
+            "result": {
+              "status": "passed",
+              "duration": 2306028341
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the order button BESTÄLL NU",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill ABC123",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill 195705047263",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click hämta uppgifter",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the page should show personal information",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill the Hej123@hej.se field",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill the 345465465 field",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click BankID",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should get a popup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i press YesOrNo",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 613112619
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "As a customer i would like to buy the Väghjälp bil insurance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i am on the SBM home page",
+            "result": {
+              "status": "passed",
+              "duration": 7039632408
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the väghjälp bil picture",
+            "result": {
+              "status": "passed",
+              "duration": 2132167360
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i’m on the vägassistansförsäkringar page",
+            "result": {
+              "status": "passed",
+              "duration": 1024412145
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the väghjälp bil picture",
+            "result": {
+              "status": "passed",
+              "duration": 1899864175
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the order button BESTÄLL NU",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill JOA112",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill 195808175250",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click hämta uppgifter",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the page should show personal information",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill the Hejda123@hejda.se field",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill the 545345365 field",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click BankID",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should get a popup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i press YesOrNo",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 608403498
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "As a customer i would like to buy the Väghjälp bil insurance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i am on the SBM home page",
+            "result": {
+              "status": "passed",
+              "duration": 6897012080
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the väghjälp bil picture",
+            "result": {
+              "status": "passed",
+              "duration": 1789604744
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i’m on the vägassistansförsäkringar page",
+            "result": {
+              "status": "passed",
+              "duration": 1022036240
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the väghjälp bil picture",
+            "result": {
+              "status": "passed",
+              "duration": 1966183040
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/step-definitions/vaghjalp.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the order button BESTÄLL NU",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill XXS007",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill 199909218175",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click hämta uppgifter",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the page should show personal information",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill the Hadet@hotmail.com field",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i fill the 654434345 field",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click BankID",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should get a popup",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i press YesOrNo",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 507909964
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "våra-vägassistansförsäkringar",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Våra vägassistansförsäkringar",
+    "tags": [],
+    "uri": "/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/test/features/vaghjalp.feature"
+  }
+]

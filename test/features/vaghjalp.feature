@@ -1,11 +1,11 @@
 Feature: Våra vägassistansförsäkringar 
 
 Scenario Outline: As a customer i would like to buy the Väghjälp bil insurance
-    Given that i’m on the SBM home page
-	And i click the Väghjälp bil picture
+    Given that i am on the SBM home page
+	And i click the väghjälp bil picture
 	When i’m on the vägassistansförsäkringar page 
 	And i click the väghjälp bil picture
-	And i click the order button “BESTÄLL NU”
+	And i click the order button BESTÄLL NU
 	And i fill <regnr>
 	And i fill <ssn>
 	And i click hämta uppgifter
