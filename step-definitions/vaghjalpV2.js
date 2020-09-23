@@ -11,41 +11,52 @@ module.exports = function () {
         await helpers.loadPage("http://localhost:3000/vagassistansforsakring");
         //no click event added, need to enter new url
         await sleep(1000);
-        pictureClick = await ("div.node-puff:nth-child(1) > a:nth-child(1) > div:nth-child(1)");
+        pictureClick = await $("div.node-puff:nth-child(1) > a:nth-child(1) > div:nth-child(1)");
         assert.equal(pictureClick, pictureClick, "expect to have the clickable image for the insurance");
       });
 
       this.When(/^i click väghjälp bil insurance$/, async function () {
-        await helpers.loadPage("http://localhost:3000/forsakringar/vagassistans/vaghjalp-bil");
-        await sleep(1000);
-        pictureClick = await ("div.node-puff:nth-child(1) > a:nth-child(1) > div:nth-child(1)");
+        //await helpers.loadPage("http://localhost:3000/forsakringar/vagassistans/vaghjalp-bil");
+        let vaghjalpBil = await $('div > div.section.content__vertical-margin > div > div > div.node.node-puff.view-mode-full.image-puff.bg-red.contextual-links-region > a > div.title > h3');
+        vaghjalpBil.click();
+        await sleep(2000);
+        let pictureClick = await $('div.node-puff:nth-child(1) > a:nth-child(1) > div:nth-child(1)');
         assert.equal(pictureClick, pictureClick, "expect to have the clickable image for the insurance");
       });
 
       this.When(/^i click the order button BESTÄLL NU$/, async function () {
-        await helpers.loadPage("http://localhost:3000/checkout/44771")
-        await sleep(1000)
+        let bestallButton = await $('#edit-ocb-submit');
+        bestallButton.click();
+        await sleep(2000);
+        assert(bestallButton, 'Expected to click on Bestall Button')
+        //await helpers.loadPage("http://localhost:3000/checkout/44771")
+        
       });
        
       this.When(/^i fill regnr$/, async function () {
-
+        let regnrField = await driver.findElement(By.xpath('//*[@id="edit-regnr"]'));
+        regnrField.sendKeys('JOA112');
+        await sleep(1000);
+      
         //await driver.findElement(By.id("#edit-regnr")).sendKeys("JOA112")
         //regnr = await driver.findElement(By.id("#edit-regnr")).value()
         //assert.equal(regnr, "JOA112", "expect put regnmr to qeual");
       });
 
-      this.When(/^i fill ssn$/, function () {
-        
+      this.When(/^i fill ssn$/, async function () {
+        let ssnField = await driver.findElement(By.xpath('//*[@id="edit-ssn-field"]'));
+        ssnField.sendKeys('195808175250');
+        await sleep(1000);
         //await driver.findElement(By.id("#edit-ssn-field")).sendKeys("195808175250")
         //ssn = await driver.findElement(By.id("#edit-ssn-field")).value()
         //assert.equal(ssn, "195808175250", "expect put regnmr to qeual");
 
-        //elementen vill inte ladda in i selenium
       });
 
       this.When(/^i click hämta uppgifter$/, async function () {
-        //await driver.findElement(By.id("#edit-ssn-button")).click();
-        //await sleep(1000)
+        let hamtaUppgifter = await $('#edit-ssn-button');
+        hamtaUppgifter.click();
+        await sleep(1000)
       });
 
       this.When(/^the page should show personal information$/, async function () {

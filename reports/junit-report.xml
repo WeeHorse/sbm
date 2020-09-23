@@ -1,63 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" tests="13" failures="1" skipped="8">
+    <testsuite name="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" tests="15" failures="0" skipped="3">
         <properties>
-            <property name="URI" value="C:/Users/maxfa/Desktop/sbm/test/features/vaghjalpV2.feature">
+            <property name="URI" value="C:/dev/sbm/test/features/vaghjalpV2.feature">
             </property>
         </properties>
-        <testcase name="Given that i am on the SBM home page" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="14.574901401">
+        <testcase name="Given that i am on the SBM home page" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="5.7577872">
         </testcase>
-        <testcase name="And i go to vagassistansforsakringar" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="2.049088">
+        <testcase name="And i go to vagassistansforsakringar" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.3004456">
         </testcase>
-        <testcase name="When i click väghjälp bil insurance" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="3.5742598">
+        <testcase name="When i click väghjälp bil insurance" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="2.0194138">
         </testcase>
-        <testcase name="And i click the order button BESTÄLL NU" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.610851201">
+        <testcase name="And i click the order button BESTÄLL NU" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="2.0090948">
         </testcase>
-        <testcase name="And i fill regnr" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.027167601">
-            <failure message="NoSuchElementError: Unable to locate element: *[id=&quot;\#edit-regnr&quot;]">NoSuchElementError: Unable to locate element: *[id=&quot;\#edit-regnr&quot;]
-    at Object.throwDecodedError (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\error.js:497:15)
-    at parseHttpResponse (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\http.js:519:13)
-    at C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\http.js:441:30
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-From: Task: WebDriver.findElement(By(css selector, *[id=&quot;\#edit-regnr&quot;]))
-    at thenableWebDriverProxy.schedule (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
-    at thenableWebDriverProxy.findElement (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
-    at createWorld.&lt;anonymous&gt; (C:\Users\maxfa\Desktop\sbm\step-definitions\vaghjalpV2.js:32:22)
-From: Task: WebElement.sendKeys()
-    at thenableWebDriverProxy.schedule (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
-    at WebElementPromise.schedule_ (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\webdriver.js:2015:25)
-    at WebElementPromise.sendKeys (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\webdriver.js:2178:19)
-    at createWorld.&lt;anonymous&gt; (C:\Users\maxfa\Desktop\sbm\step-definitions\vaghjalpV2.js:32:56)</failure>
+        <testcase name="And i fill regnr" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.0235435">
         </testcase>
-        <testcase name="And i fill ssn" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
+        <testcase name="And i fill ssn" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.017605801">
+        </testcase>
+        <testcase name="And i click hämta uppgifter" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.018878101">
+        </testcase>
+        <testcase name="And the page should show personal information" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="0.000219501">
+        </testcase>
+        <testcase name="And i fill the email field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="0.0001931">
+        </testcase>
+        <testcase name="And i fill the mobil field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="0.000310401">
+        </testcase>
+        <testcase name="And i click BankID" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="0.0002138">
+        </testcase>
+        <testcase name="Then i should get a popup" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="0.000142701">
+        </testcase>
+        <testcase name="And i enter my ssn" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And i click hämta uppgifter" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
+        <testcase name="And i click fortsatt" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And the page should show personal information" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill the email field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill the mobil field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i click BankID" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then i should get a popup" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i press YesOrNo" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
+        <testcase name="And i should get confirmation on my order" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
             <skipped message="">
             </skipped>
         </testcase>
