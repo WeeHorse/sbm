@@ -21,6 +21,6 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node keystone.js",
-    "test": "node test-runner.js && exit 1"
+    "test": "node test-runner.js && exit 0"
   }
 }

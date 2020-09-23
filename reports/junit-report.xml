@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" tests="14" failures="0" skipped="10">
+    <testsuite name="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" tests="13" failures="1" skipped="8">
         <properties>
-            <property name="URI" value="/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/test/features/vaghjalp.feature">
+            <property name="URI" value="C:/Users/maxfa/Desktop/sbm/test/features/vaghjalpV2.feature">
             </property>
         </properties>
-        <testcase name="Given that i am on the SBM home page" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="7.986031169">
+        <testcase name="Given that i am on the SBM home page" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="14.574901401">
         </testcase>
-        <testcase name="And i click the väghjälp bil picture" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="2.078559951">
+        <testcase name="And i go to vagassistansforsakringar" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="2.049088">
         </testcase>
-        <testcase name="When i’m on the vägassistansförsäkringar page" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.028807134">
+        <testcase name="When i click väghjälp bil insurance" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="3.5742598">
         </testcase>
-        <testcase name="And i click the väghjälp bil picture" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="2.306028341">
+        <testcase name="And i click the order button BESTÄLL NU" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.610851201">
         </testcase>
-        <testcase name="And i click the order button BESTÄLL NU" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
+        <testcase name="And i fill regnr" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.027167601">
+            <failure message="NoSuchElementError: Unable to locate element: *[id=&quot;\#edit-regnr&quot;]">NoSuchElementError: Unable to locate element: *[id=&quot;\#edit-regnr&quot;]
+    at Object.throwDecodedError (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElement(By(css selector, *[id=&quot;\#edit-regnr&quot;]))
+    at thenableWebDriverProxy.schedule (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
+    at createWorld.&lt;anonymous&gt; (C:\Users\maxfa\Desktop\sbm\step-definitions\vaghjalpV2.js:32:22)
+From: Task: WebElement.sendKeys()
+    at thenableWebDriverProxy.schedule (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at WebElementPromise.schedule_ (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\webdriver.js:2015:25)
+    at WebElementPromise.sendKeys (C:\Users\maxfa\Desktop\sbm\node_modules\selenium-webdriver\lib\webdriver.js:2178:19)
+    at createWorld.&lt;anonymous&gt; (C:\Users\maxfa\Desktop\sbm\step-definitions\vaghjalpV2.js:32:56)</failure>
         </testcase>
-        <testcase name="And i fill ABC123" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill 195705047263" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
+        <testcase name="And i fill ssn" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
             <skipped message="">
             </skipped>
         </testcase>
@@ -33,119 +41,11 @@
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And i fill the Hej123@hej.se field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
+        <testcase name="And i fill the email field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And i fill the 345465465 field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i click BankID" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then i should get a popup" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i press YesOrNo" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" tests="14" failures="0" skipped="10">
-        <properties>
-            <property name="URI" value="/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/test/features/vaghjalp.feature">
-            </property>
-        </properties>
-        <testcase name="Given that i am on the SBM home page" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="7.039632408">
-        </testcase>
-        <testcase name="And i click the väghjälp bil picture" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="2.13216736">
-        </testcase>
-        <testcase name="When i’m on the vägassistansförsäkringar page" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.024412145">
-        </testcase>
-        <testcase name="And i click the väghjälp bil picture" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.899864175">
-        </testcase>
-        <testcase name="And i click the order button BESTÄLL NU" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill JOA112" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill 195808175250" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i click hämta uppgifter" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the page should show personal information" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill the Hejda123@hejda.se field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill the 545345365 field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i click BankID" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then i should get a popup" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i press YesOrNo" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" tests="14" failures="0" skipped="10">
-        <properties>
-            <property name="URI" value="/Users/junghyunchoi/Documents/MVT19/Teststrategi/sbm-site/sbm/test/features/vaghjalp.feature">
-            </property>
-        </properties>
-        <testcase name="Given that i am on the SBM home page" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="6.89701208">
-        </testcase>
-        <testcase name="And i click the väghjälp bil picture" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.789604744">
-        </testcase>
-        <testcase name="When i’m on the vägassistansförsäkringar page" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.02203624">
-        </testcase>
-        <testcase name="And i click the väghjälp bil picture" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance" time="1.96618304">
-        </testcase>
-        <testcase name="And i click the order button BESTÄLL NU" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill XXS007" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill 199909218175" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i click hämta uppgifter" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the page should show personal information" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill the Hadet@hotmail.com field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i fill the 654434345 field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
+        <testcase name="And i fill the mobil field" classname="våra-vägassistansförsäkringar;as-a-customer-i-would-like-to-buy-the-väghjälp-bil-insurance">
             <skipped message="">
             </skipped>
         </testcase>
