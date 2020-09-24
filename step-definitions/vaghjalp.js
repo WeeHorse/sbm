@@ -40,13 +40,18 @@ module.exports = function () {
 
 
     this.When(/^I click on the Beställ nu button$/, async function () {
-
+        let beställNuButton = await $('#edit-ocb-submit');
+        await beställNuButton.click();
+        assert(beställNuButton, "expected to press Väghjälp picture");
+        await sleep (500);
     });
 
 
-    this.Then(/^I should be directed to the checkout page$/, function (callback) {
-        // Write code here that turns the phrase above into concrete actions
-        callback(null, 'pending');
+    this.Then(/^I should be directed to the checkout page$/, async function () {
+        await sleep(2000)
+        let hämtaUppgifter = await $('#edit-ssn-button');
+        assert(hämtaUppgifter, "Expected to be null");
+        await sleep (500);
     });
     
 }

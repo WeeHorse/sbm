@@ -14,7 +14,7 @@
             "name": "that I am on the SBM homepage",
             "result": {
               "status": "passed",
-              "duration": 7340312881
+              "duration": 7321137217
             },
             "line": 7,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I click on the väghjälp picture",
             "result": {
               "status": "passed",
-              "duration": 1233384949
+              "duration": 1228631430
             },
             "line": 8,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I should be directed to the vägassitansförsäkring page",
             "result": {
               "status": "passed",
-              "duration": 2516221697
+              "duration": 2511420880
             },
             "line": 9,
             "match": {
@@ -53,7 +53,7 @@
             "name": "I click on väghjälp bil picture",
             "result": {
               "status": "passed",
-              "duration": 1175540106
+              "duration": 1087989538
             },
             "line": 10,
             "match": {
@@ -66,7 +66,7 @@
             "name": "I should be directed to the ordering page",
             "result": {
               "status": "passed",
-              "duration": 2515549134
+              "duration": 2517193505
             },
             "line": 11,
             "match": {
@@ -78,7 +78,8 @@
             "keyword": "When ",
             "name": "I click on the Beställ nu button",
             "result": {
-              "status": "pending"
+              "status": "passed",
+              "duration": 1034645842
             },
             "line": 12,
             "match": {
@@ -90,11 +91,12 @@
             "keyword": "Then ",
             "name": "I should be directed to the checkout page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2515026934
             },
             "line": 13,
             "match": {
-              "location": "/Users/Lokal_Mapp/sbm/step-definitions/vaghjalp.js:48"
+              "location": "/Users/Lokal_Mapp/sbm/step-definitions/vaghjalp.js:50"
             }
           },
           {
@@ -102,7 +104,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 754077134
+              "duration": 785836972
             },
             "hidden": true,
             "match": {

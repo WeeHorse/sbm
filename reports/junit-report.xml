@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="ordering-roadside-assistance;goto-road-assistance-order-page" tests="7" failures="0" skipped="2">
+    <testsuite name="ordering-roadside-assistance;goto-road-assistance-order-page" tests="7" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Users/Lokal_Mapp/sbm/features/vaghjalp.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the SBM homepage" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="7.340312881">
+        <testcase name="Given that I am on the SBM homepage" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="7.321137217">
         </testcase>
-        <testcase name="When I click on the väghjälp picture" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="1.233384949">
+        <testcase name="When I click on the väghjälp picture" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="1.22863143">
         </testcase>
-        <testcase name="Then I should be directed to the vägassitansförsäkring page" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="2.516221697">
+        <testcase name="Then I should be directed to the vägassitansförsäkring page" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="2.51142088">
         </testcase>
-        <testcase name="When I click on väghjälp bil picture" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="1.175540106">
+        <testcase name="When I click on väghjälp bil picture" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="1.087989538">
         </testcase>
-        <testcase name="Then I should be directed to the ordering page" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="2.515549134">
+        <testcase name="Then I should be directed to the ordering page" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="2.517193505">
         </testcase>
-        <testcase name="When I click on the Beställ nu button" classname="ordering-roadside-assistance;goto-road-assistance-order-page">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I click on the Beställ nu button" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="1.034645842">
         </testcase>
-        <testcase name="Then I should be directed to the checkout page" classname="ordering-roadside-assistance;goto-road-assistance-order-page">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I should be directed to the checkout page" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="2.515026934">
         </testcase>
     </testsuite>
 </testsuites>
