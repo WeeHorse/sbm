@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="ordering-roadside-assistance;goto-road-assistance-order-page" tests="7" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="/Users/Lokal_Mapp/sbm/features/vaghjalp.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the SBM homepage" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="7.340312881">
+        </testcase>
+        <testcase name="When I click on the väghjälp picture" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="1.233384949">
+        </testcase>
+        <testcase name="Then I should be directed to the vägassitansförsäkring page" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="2.516221697">
+        </testcase>
+        <testcase name="When I click on väghjälp bil picture" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="1.175540106">
+        </testcase>
+        <testcase name="Then I should be directed to the ordering page" classname="ordering-roadside-assistance;goto-road-assistance-order-page" time="2.515549134">
+        </testcase>
+        <testcase name="When I click on the Beställ nu button" classname="ordering-roadside-assistance;goto-road-assistance-order-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should be directed to the checkout page" classname="ordering-roadside-assistance;goto-road-assistance-order-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>

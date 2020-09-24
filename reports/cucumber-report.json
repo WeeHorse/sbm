@@ -1,0 +1,124 @@
+[
+  {
+    "description": "As a user\nI would like to order roadside assistance insurance",
+    "elements": [
+      {
+        "id": "ordering-roadside-assistance;goto-road-assistance-order-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Goto Road assistance order page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the SBM homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7340312881
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/Lokal_Mapp/sbm/step-definitions/vaghjalp.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the väghjälp picture",
+            "result": {
+              "status": "passed",
+              "duration": 1233384949
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/Lokal_Mapp/sbm/step-definitions/vaghjalp.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be directed to the vägassitansförsäkring page",
+            "result": {
+              "status": "passed",
+              "duration": 2516221697
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/Lokal_Mapp/sbm/step-definitions/vaghjalp.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on väghjälp bil picture",
+            "result": {
+              "status": "passed",
+              "duration": 1175540106
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/Lokal_Mapp/sbm/step-definitions/vaghjalp.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be directed to the ordering page",
+            "result": {
+              "status": "passed",
+              "duration": 2515549134
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/Lokal_Mapp/sbm/step-definitions/vaghjalp.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the Beställ nu button",
+            "result": {
+              "status": "pending"
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/Lokal_Mapp/sbm/step-definitions/vaghjalp.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be directed to the checkout page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/Lokal_Mapp/sbm/step-definitions/vaghjalp.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 754077134
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/Lokal_Mapp/sbm/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ordering-roadside-assistance",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Ordering roadside assistance",
+    "tags": [],
+    "uri": "/Users/Lokal_Mapp/sbm/features/vaghjalp.feature"
+  }
+]
