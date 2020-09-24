@@ -1,0 +1,8 @@
+{
+"steps":"./tests/selenium/step-definitions",
+"pageObjects":"./tests/selenium/page-objects",
+"sharedObjects":"./tests/selenium/shared-objects",
+"reports":"./tests/selenium/reports",
+"browser":"chrome",
+"timeout":20000
+}
