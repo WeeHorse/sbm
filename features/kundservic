@@ -1,0 +1,14 @@
+Feature: Start
+
+
+    as a user I want to navigate to the homepage 
+    to be in touch with customer service
+
+    Background: Contact customer service via home page
+        Given that I am on the homepage
+        
+
+    Scenario: Kontakta oss
+        When i choose and click on kontakta oss button from the kundservic list
+        Then i'll be redirected to kontakta oss site
+    

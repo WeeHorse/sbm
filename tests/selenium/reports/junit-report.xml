@@ -1,20 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-<<<<<<< HEAD
-    <testsuite name="köp-en-försäkring;buy-an-insurance" tests="1" failures="0" skipped="0">
+    <testsuite name="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance" tests="16" failures="1" skipped="10">
         <properties>
-            <property name="URI" value="C:/Users/Data/Desktop/sbm/features/köpförsäkring.feature">
+            <property name="URI" value="C:/Users/Data/Desktop/sbm/features/vagassestanceforsakringar.feature">
             </property>
         </properties>
-        <testcase name="Given that im at the SMB webbsite" classname="köp-en-försäkring;buy-an-insurance" time="10.4901281">
-=======
-    <testsuite name="start;homepage" tests="1" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Users/toby_/Desktop/sbm/features/Start.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on the homepage" classname="start;homepage" time="10.7677">
->>>>>>> 043fa0a89891076f3426de39b395f97b4cb231b1
+        <testcase name="Given that i am on the SBM home page" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance" time="7.225962801">
+        </testcase>
+        <testcase name="And i click on vi tar dig hela vagen fram picture i&apos;ll be redirected to vägassistansförsäkringar page" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance" time="3.0463417">
+        </testcase>
+        <testcase name="When i am on the vagassistansforsakringar page" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance" time="2.053751001">
+        </testcase>
+        <testcase name="And i click väghjälp bil picture" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance" time="2.9629026">
+        </testcase>
+        <testcase name="And i click the BESTALL NU button i will be redirected to DIN BESTALLNING page" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance" time="1.6658586">
+        </testcase>
+        <testcase name="And i fill my cars reg nr" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance" time="0.082181801">
+            <failure message="AssertionError: expected reg nr to be matched">AssertionError: expected reg nr to be matched
+    at createWorld.&lt;anonymous&gt; (C:\Users\Data\Desktop\sbm\tests\selenium\step-definitions\vagassestanceforsakringar.js:62:3)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        </testcase>
+        <testcase name="And i fill my person nr" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And i click hämta uppgifter" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the page should show personal information" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And i fill the email field" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And i fill the mobil field" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And i click BankID" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then i should get a popup" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And i enter my ssn" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And i click fortsatt" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And i should get confirmation on my order" classname="buy-an-insurance;as-a-customer-i-would-like-to-buy-väghjälp-bil-insurance">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 </testsuites>
