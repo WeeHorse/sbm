@@ -10,10 +10,10 @@ Feature: Buy an insurance
     And i fill my person nr
     And i click hamta uppgifter
     And the page should show personal information
-    And i i write the email adress
+    And i write the email adress
     And i write the mobil Nr
-    And i click BankID
-    Then i should get a popup
+    And i click on the BankID button
+    Then i will get a popup
     And i enter my person nr
     And i click fortsatt
-    And i should get confirmation on my order
+    And i will get a confirmation message and sed the order

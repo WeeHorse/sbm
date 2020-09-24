@@ -70,13 +70,13 @@ module.exports = function () {
 
 		let personNr = await driver.findElement(By.css("#edit-ssn-field"));
 		personNr.sendKeys("195808175250");
-		assert(ssn, "Expected the person nr to be matched ");
+		assert(personNr, "Expected the person nr to be matched ");
 		await sleep(1000);
 
 	});
 
 	this.When(/^i click hamta uppgifter$/, async function () {
-		let hämtaUppgifter = await driver.findElement(By.id("#edit-ssn-button")).click();
+		let hämtaUppgifter = await driver.findElement(By.css("#edit-ssn-button")).click();
 		assert(hämtaUppgifter, 'Expected ');
 		await sleep(1000);
 	});
@@ -89,13 +89,13 @@ module.exports = function () {
 
 	this.When(/^i write the email adress$/, async function () {
 		let email = await driver.findElement(by.id("#edit-commerce-user-profile-pane-field-user-phone-und-0-value"));
-		email.sendkeys("Testmail@hotmail.com");
+		email.sendkeys("myMail@hotmail.com");
 		await sleep(1000);
 	});
 
 	this.When(/^i write the mobil Nr$/, async function () {
 		let mobNr = await driver.findElement(by.id("#bankid-login-button"));
-		mobNr.sendkeys("my.mail@hotmail.com");
+		mobNr.sendkeys("0722962166");
 		await sleep(1000);
 
 	});
@@ -107,7 +107,7 @@ module.exports = function () {
 
 	});
 
-	this.Then(/^i will get a popupp$/, async function () {
+	this.Then(/^i will get a popup$/, async function () {
 		let popUpp = await driver.findElement(by.id("#bankid-ssn"));
 		assert(popUpp, 'Expected');
 		await sleep(1000);
